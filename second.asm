@@ -1,6 +1,7 @@
 	;; Outputs every second element of a number array
-	;; 
-	;;
+	;; This program uses the esi register to refer
+	;; to the appropriate array element using offset notiation
+	;; mshirlaw
 
 section .bss
 	mynum	resw	1;
